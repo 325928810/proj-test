@@ -7,6 +7,8 @@ export default function Logo() {
 
     return (<>
         <br/>  <br/>
+        <></>
+        <h1>aaa</h1>
         <div className="card flex justify-content-center">
           
             <Image src="http://localhost:1133/logoV.png" indicatorIcon={icon} alt="Image" preview width="1000" />
