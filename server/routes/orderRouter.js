@@ -1,0 +1,12 @@
+const express=require("express")
+const router=express.Router()
+const orderController=require("../controller/orderController")
+
+router.get("/",orderController.getAllOrders)
+
+router.get("/userOrders",orderController.getUserOrders)
+router.post("/",orderController.createOrder)
+router.delete("/",orderController.deleteOrder)
+module.exports=router
+
+
